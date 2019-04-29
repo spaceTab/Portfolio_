@@ -1,44 +1,11 @@
 body {
-    /* background-color: dodgerblue; */
-    animation: background 2s linear;
+  background-color: dodgerblue;
 }
 .container {
-    display: block;
-    margin: 20px 50px;
-    padding: 10px 10px;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-}
-
-.heading {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 55px;
-    animation: name 2s linear;
-}
-
-.btnContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 50px 50px;
-}
-
-.btn {
-    border-radius: 10%;
-    height: 45px;
-    width: 80px;
-    
-}
-
-
-@-webkit-keyframes name {
-    to {
-        transform: translateX(0px)
-    }
-    from {
-        transform: translateX(-500px)
-    }
+  display: flex;
+  margin: 20px 50px;
+  padding: 10px 10px;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
 }
